@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Frontend Mentor | Manage landing page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  </head>
+
+  <body>
+    <header class="w-full py-5 relative bgc">
+      <nav class="flex justify-between relative w90 mx-auto">
+        <img src="images/logo.svg" class="logo block md:my-5" alt="logo" />
+        <ul
+          class="flex justify-between clr-bc ulnav md:flex-row lg:font-bold flex-col md:static md:my-2 md:py-1 absolute left-0 right-0 mx-auto w90 text-center py-5 z1 animation2"
+        >
+          <li class="mb-3 md:mb-0 md:mt-1"> <a class="nav-item" href="">Pricing</a></li>
+          <li class="mb-3 md:mb-0 md:mt-1"> <a class="nav-item" href="">Product</a></li>
+          <li class="mb-3 md:mb-0 md:mt-1"> <a class="nav-item" href="">About Us</a></li>
+          <li class="mb-3 md:mb-0 md:mt-1"> <a class="nav-item" href="">Careers</a></li>
+          <li class="md:mt-1"> <a class="nav-item" href="">Community</a></li>
+        </ul>
+        <button
+          class="hidden md:block button text-center block bt-clr py-2 px-10 clr-w shd md:my-2 z-10 relative rounded-full"
+        >
+          Get Started
+        </button>
+        <img
+          src="images/icon-hamburger.svg"
+          class="block ham z-10 md:hidden"
+          alt="hamburger"
+        />
+      </nav>
+      <section class="sec1 ">
+        <div class="w90 mx-auto">
+        <img
+          src="images/bg-tablet-pattern.svg"
+          class="bgimg"
+          alt="section background"
+        />
+        <div class="flex flex-col lg:flex-row-reverse justify-between">
+          <img
+            src="images/illustration-intro.svg"
+            class="illu"
+            alt="illustration"
+          />
+          <div class="w90 mx-auto lg:ml-0 brg relative">
+            <h1 class="text-center lg:text-left lg:text-5xl lg:leading-tight clr-bc text-3xl font-bold relative z-10">
+              Bring everyone together to build better products.
+            </h1>
+            <p class="clr-g lg:text-left lg:ml-0 lg:mr-0 relative z-10 sw70 sw70lg sm:mx-auto text-center">
+              Manage makes it simple for software teams to plan day-to-day tasks
+              while keeping the larger team goals in view.
+            </p>
+            <button
+              class="text-center block button bt-clr mx-auto lg:ml-0 py-3 px-10 clr-w shd mt-5 lg:mt-10 mb-20 z-10 relative rounded-full"
+            >
+              Get Started
+            </button>
+            <img
+              src="images/bg-tablet-pattern.svg"
+              class="bgimg2 lg:hidden"
+              alt="section background"
+            />
+          </div>
+        </div>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section class="w90 mx-auto relative lg:mt-10 lg:justify-between lg:flex-row flex flex-col">
+        <img
+              src="images/bg-tablet-pattern.svg"
+              class="bgimg3"
+              alt="section background"
+            />
+        <div class="mb-10 w30l">
+          <h2 class="text-center lg:text-4xl mgr lg:text-left clr-bc text-3xl font-bold">
+            What’s different about Manage?
+          </h2>
+          <p class="clr-g lg:ml-0 lg:text-left lg:mt-6 text-center sw70 sm:mx-auto">
+            Manage provides all the functionality your team needs, without the
+            complexity. Our software is tailor-made for modern digital product
+            teams
+          </p>
+        </div>
+        <div class="w50l">
+          <div class="mb-3">
+            <div class="clr-p mb-2 lgc">
+              <div class="bt-clr rounded-full inline-block px-4 py-1">01</div>
+              <h2 class="text-center lg:pl-4 clr-bc inline-block fs font-bold">
+                Track company-wide progress
+              </h2>
+            </div>
+
+            <p class="clr-g pl18">
+              See how your day-to-day tasks fit into the wider vision. Go from
+              tracking progress at the milestone level all the way done to the
+              smallest of details. Never lose sight of the bigger picture again.
+            </p>
+          </div>
+
+          <div class="mb-3">
+            <div class="clr-p mb-2 lgc">
+              <div class="bt-clr rounded-full inline-block px-4 py-1">02</div>
+              <h2 class="text-center lg:pl-4 clr-bc inline-block fs font-bold">
+                Advanced built-in reports
+              </h2>
+            </div>
+            <p class="clr-g pl18">
+              Set internal delivery estimates and track progress toward company
+              goals. Our customisable dashboard helps you build out the reports
+              you need to keep key stakeholders informed.
+            </p>
+          </div>
+          <div>
+            <div class="clr-p mb-2 lgc">
+              <div class="bt-clr rounded-full inline-block px-4 py-1">03</div>
+              <h2 class="text-center lg:pl-4 clr-bc inline-block fs font-bold">
+                Everything you need in one place
+              </h2>
+            </div>
+            <p class="clr-g pl18">
+              Stop jumping from one service to another to communicate, store
+              files, track tasks and share documents. Manage offers an
+              all-in-one team productivity solution.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="w90 mx-auto wts mt-10">
+        <h2 class="text-center text-3xl lg:text-4xl clr-bc font-bold mb-5">What they’ve said</h2>
+        <div class="slide">
+          <div class="bgcg relative z-10">
+            <img src="images/avatar-ali.png" class="img" alt="pic1" />
+            <div class="pt-16 text-center">
+              <h3 class="mb-5">Ali Bravo</h3>
+              <p class="clr-g par">
+                “We have been able to cancel so many other subscriptions since
+                using Manage. There is no more cross-channel confusion and
+                everyone is much more focused.”
+              </p>
+            </div>
+          </div>
+          <div class="bgcg relative">
+            <img src="images/avatar-anisha.png" class="img" alt="pic1" />
+            <div class="pt-16 text-center">
+              <h3 class="mb-5">Anisha Li</h3>
+              <p class="clr-g par">
+                “Manage has supercharged our team’s workflow. The ability to
+                maintain visibility on larger milestones at all times keeps
+                everyone motivated.”
+              </p>
+            </div>
+          </div>
+          <div class="bgcg relative">
+            <img src="images/avatar-richard.png" class="img" alt="pic1" />
+            <div class="pt-16 text-center">
+              <h3 class="mb-5">Richard Watts</h3>
+              <p class="clr-g par">
+                “Manage allows us to provide structure and process. It keeps us
+                organized and focused. I can’t stop recommending them to
+                everyone I talk to!”
+              </p>
+            </div>
+          </div>
+          <div class="bgcg relative">
+            <img src="images/avatar-shanai.png" class="img" alt="pic1" />
+            <div class="pt-16 text-center">
+              <h3 class="mb-5">Shanai Gough</h3>
+              <p class="clr-g par">
+                “Their software allows us to track, manage and collaborate on
+                our projects from anywhere. It keeps the whole team in-sync
+                without being intrusive.”
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="flex circles justify-between lg:hidden w200 mx-auto mt-3">
+          <span class="circle circlefull"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+          <span class="circle"></span>
+        </div>
+        <button
+          class="text-center block button bt-clr mx-auto py-3 px-10 clr-w shd mb-10 mt-10 z-12 relative rounded-full"
+        >
+          Get Started
+        </button>
+      </section>
+      <section class="bt-clr relative">
+        <div class="w90 mx-auto lg:flex py-20">
+          <h2 class="clr-w w90 w40l lg:text-left lg:leading-tight mx-auto text-4xl font-bold text-center">
+            Simplify how your team works today.
+          </h2>
+          <button
+            class="text-center button block bgw mx-auto py-3 px-10 clr-o shd mt-10 lg:mb-10 lg:mt-8 z-12 relative rounded-full"
+          >
+            Get Started
+          </button>
+        </div>
+      </section>
+      <section class="clr-b">
+        <div class="w90 mx-auto flex pt-10 lg:flex-row flex-col-reverse">
+          <div class="flex mt-10 lg:flex-col lg:justify-between flex-col-reverse">
+            <img src="images/logo1.svg" class="logo1 mx-auto" alt="logo" />
+            <div class="flex mb-10 lg:mb-0 sw70 sm:mx-auto justify-between">
+              <img
+                src="images/icon-facebook.svg"
+                class="social"
+                alt="facebook"
+              />
+              <img src="images/icon-youtube.svg" class="social" alt="youtube" />
+              <img src="images/icon-twitter.svg" class="social" alt="twitter" />
+              <img
+                src="images/icon-pinterest.svg"
+                class="social"
+                alt="pinterest"
+              />
+              <img
+                src="images/icon-instagram.svg"
+                class="social"
+                alt="instagram"
+              />
+            </div>
+          </div>
+          <div class="flex justify-between clr-w mt-10 w90 wlg w70 mx-auto">
+            <ul class="clr-g font-bold">
+              <li class="pb-3 ft"><a href="">Home</a></li>
+              <li class="pb-3 ft"><a href="">Pricing</a></li>
+              <li class="pb-3 ft"><a href="">Product</a></li>
+              <li class="ft"><a href="">About Us</a></li>
+            </ul>
+            <ul class="clr-g font-bold">
+              <li class="pb-3 ft"><a href="">Careers</a></li>
+              <li class="pb-3 ft"><a href="">Community</a></li>
+              <li class="ft"><a href="">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="lg:flex inpw lg:mt-10" >
+            <input
+              type="search"
+              name="search"
+              id="search"
+              placeholder="Updates in your inbox..."
+              class="inline-block input rounded-full"
+            />
+            <button
+              class="text-center button inline-block but clr-w shd bt-clr z-12 lg:ml-4 relative rounded-full"
+            >
+              Go
+            </button>
+          </div>
+        </div>
+        <p class="text-center  clr-g mt-10 pb-8">
+          Copyright 2020. All Rights Reserved
+        </p>
+      </section>
+    </main>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
